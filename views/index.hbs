@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>EDA Phase 1 Express Boilerplate</title>
+    <title>String Instruments</title>
   </head>
   <body>
-    <ul>
-    {{#each users}}
-      <li>{{name}} ({{email}})</li>
-    {{/each}}
-    </ul>
+    <h1>String Instruments</h1>
+   <ul>
+     {{#each images}}
+     <li style="list-style: none;"><a href ='/instruments/{{id}}'><img src = {{image}}></a></li st>
+     {{/each}}
+   </ul>
   </body>
 </html>
+
+{{!-- code serving up images --}}
+  {{!-- <ul>
+     {{#each images}}
+     <img src = {{image}}>
+     {{/each}}
+   </ul> --}}
+
+
